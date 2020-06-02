@@ -19,3 +19,5 @@ Om alt går bra skal Jest skrive ut hvor mange tester den har kjørt og resultat
     npm install
     npm test
     
+**Bonuspoeng:** Sett opp prosjektet i Intellij (eller hva du måtte foretrekke). Det å kjøre spesifikke tester rett
+fra editoren gir en ganske fin flyt når man utvikler.   
