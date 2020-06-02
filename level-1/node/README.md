@@ -14,6 +14,8 @@ for de som kjører Linux.
 Når du har installert miljøet kan du kjøre følgende besvergelser for å installere testrammeverket Jest og kjøre testene.
 Om alt går bra skal Jest skrive ut hvor mange tester den har kjørt og resultatet av de. 
 
+    git clone https://github.com/kimble/testing-testing.git
+    cd testing-testing/level-1/node
     npm install
     npm test
     
