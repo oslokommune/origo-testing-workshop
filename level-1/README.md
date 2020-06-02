@@ -14,6 +14,7 @@ Leksjoner
  * [Forskjellige typer tester](lessons/02-typer.md)
  * [TDD - Test driven development](lessons/03-tdd.md)
  * [Anatomi - Oppbygning av en test](lessons/04-anatomi.md)
+ * [Testdekning og godt nok](lessons/05-coverage.md)
 
 Tema
 ----
