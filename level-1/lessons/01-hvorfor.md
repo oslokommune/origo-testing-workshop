@@ -18,8 +18,8 @@ er det kanskje et hint om at man må lese seg litt opp på domenet / problemet.
 Reduserer kjip og dyr manuell testing
 -------------------------------------
 Det å trykke seg gjennom tekstlige test-cases i et system før en prodsetting er **a)** dyrt og **b)** dritkjedelig. 
-Når man skriver automatiserte tester slipper man denne dyre og kjedelige jobben, kvaliteten går opp og man kan sove 
-bedre om natta. Win-win-win.  
+Når man skriver automatiserte tester slipper man denne dyre og kjedelige jobben, kvaliteten går opp, man kan deploye 
+oftere (smidig) og man kan sove bedre om natta. Win-win-win.  
 
 Medfører testbar kode
 ---------------------
@@ -27,4 +27,8 @@ Når en implementerer koden først oppdager man veldig ofte at man har gjort des
 praktisk umulig å skrive tester for koden. Dersom man skriver testene først, eller i det minste samtidig med koden
 som skal kjøre i produksjon er det i praksis umulig å ende opp med kode som ikke lar seg teste. 
 
+Dokumentasjon 
+-------------
+Dersom man gjøre en god jobb med testen (og det gjør man selvfølgelig) fungerer de også som dokumentasjon for utviklere
+som kommer etter deg (eller faktisk deg selv noen uker etter at du skrev koden og har glemt alt sammen).
  
