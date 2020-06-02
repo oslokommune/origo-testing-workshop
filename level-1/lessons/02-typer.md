@@ -71,3 +71,13 @@ implementere / forbedre overvåkning som setter deg i stand til å finne flaskeh
 Dersom du likevel vil skrive en ytelsestest må du lese deg opp på hvordan det gjøres på den plattformen du er på. 
 Ting som garbage collection og just-in-time kompilatorer gjør det ganske vanskelig å skrive ytelsestester som gir 
 et riktig bilde.
+
+
+Take-aways
+----------
+Om skal huske noe av denne siden så la det være disse tingene. 
+
+1. Kodekvaliteten må være minst like bra som produksjonskoden. Ellers vil de på et punkt bli slettet. 
+2. De bruker ord og uttrykk fra domenet / problemområdet. Ikke finn på nye ord om det finnes et ord som brukes av de 
+personene som jobber med domenet.
+3. Kjører så fort som mulig, men ikke så fort at de blir flaky eller ofrer for mye realisme / isolasjon. 
