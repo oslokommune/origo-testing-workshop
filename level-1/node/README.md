@@ -3,6 +3,11 @@ Level 1 - NodeJS / Javascript
 Dette er en introduksjon til testing som tar utgangspunkt i NodeJS, Javascript og Jest. 
 
 
+Ikke snik
+---------
+Ikke se på andre filer enn denne før workshoppen. Om du gjør det vil du miste muligheten til å tenke gjennom og forstå
+ting før poenget avsløres. 
+
 Hjemmelekse før workshop
 ------------------------
 For å slippe å bruke masse tid i fellesskap på å installere ditt og datt forventer vi at de som deltar har gjort 
