@@ -1,0 +1,14 @@
+{
+  "name": "testin-testing-level-1",
+  "version": "1.0.0",
+  "description": "Introduksjon til testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Origo",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
