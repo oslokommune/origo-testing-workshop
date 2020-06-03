@@ -19,13 +19,17 @@ Her en en liste over ting egenskaper ved en god enhetstest.
  * Du har ekstremt mange av de! 
  * Ikke avhengig av implementasjonen (gir deg mulighet til å endre / optimalisere implementasjonen uten å tukle med testen)
  * En utvikler som leser den lærer noe om domenet. Eksempel: aah, det er sånn denne delen av skatteberegningen fungerer!
+ * Er isolert. Eksempel: Resultatene av testene blir det samme uavhengig av hvilken rekkefølge de kjøres i. 
  * Gir en god feilmelding når den feiler. Det skjer ganske ofte at man knekker en test og blir usikker på hvorfor testen
 er sånn som den er. En god test forklarer eller i det minste hinter om hvorfor det den tester skal være sånn. 
  * Gjør det ganske åpentbart hva som har feilet når den feiler (derav navnet unit test). Eksempel: Det er kutt pinlig 
 dersom testen `tennplugg lager gnist` feiler pga. en bug i klassen `Sminkespeil`.
  * Bruker ord og uttrykk fra domenet / problemområdet man jobber med. 
+ * Holder seg på et abstraksjonsnivå. Eksempel: Formatering og sending av meldinger er to forskjellige tester.
  * Koden holder minst like god kvalitet som produksjonskoden. Mye duplisering og uleselig kode vil gjør at noen på sikt
 kommer og sletter alle testene fordi det koster for mye å vedlikeholde de. 
+ * Tester også feilsituasjoner. Eksempel: Test som verifiserer at vi ikke er i en ikke-definert tilstand dersom noe
+kaster en exception.
 
 Integrasjonstester 
 -------------------

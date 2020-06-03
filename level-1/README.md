@@ -16,15 +16,13 @@ Introduksjon
 Se på denne testen (uten å se på implementasjonen).  
 
  * [Javascript](node/src/calculator.test.js) 
- * Kotlin (kommer)
 
 [Motivasjon - Noen grunner til å skrive tester](lessons/01-hvorfor.md)
 
 Forskjellige typer tester
 -------------------------
-Se på denne testen (det er ingen implementasjon her).
-
- * [Javascript](node/src/vg.test.js)
+ * [Eksempler på dårlige tester](node/src/crappy.test.js) 
+ * [Oppgave: Forbedre denne](node/src/fairytale-repo.test.js) 
 
 [Mer informasjon om forskjellige typer tester](lessons/02-typer.md)
 

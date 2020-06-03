@@ -2,6 +2,9 @@ Noen grunner til å skrive tester
 ===============================
 Dette er oversikten for deg som trenger litt ekstra motivasjon for å skrive tester!
 
+![utviklere](media/konsulenter.png "Det er bedre med to utviklere enn ingen utviklere")
+
+[Video, start ca. 5:22](https://tv.nrk.no/serie/pompel-og-pilt-reparatoerene-kommer/sesong/1/episode/5/avspiller)
 
 Det som har fungert fortsetter å fungere
 ----------------------------------------
