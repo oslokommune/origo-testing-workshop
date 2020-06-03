@@ -11,35 +11,20 @@ følgende språk. Prinsippene er stort sett de samme uavhengig av hvilket språk
 1. [NodeJS / Javascript](node/README.md)
 2. [JVM / Kotlin](jvm/README.md)
 
-Introduksjon
-------------
-Se på denne testen (uten å se på implementasjonen).  
-
- * [Javascript](node/src/calculator.test.js) 
-
-[Motivasjon - Noen grunner til å skrive tester](lessons/01-hvorfor.md)
-
-Forskjellige typer tester
--------------------------
+Oppgaver og eksempler
+---------------------
+ * [Javascript](node/src/calculator.test.js)
  * [Eksempler på dårlige tester](node/src/crappy.test.js) 
- * [Oppgave: Forbedre denne](node/src/fairytale-repo.test.js) 
+ * [Oppgave: Forbedre denne](node/src/fairytale-repo.test.js)
+ * [100% coverage](node/src/coverage-calculator.test.js)
 
-[Mer informasjon om forskjellige typer tester](lessons/02-typer.md)
-
-TDD og tester generelt
-----------------------
-[TDD - Test driven development](lessons/03-tdd.md)
-
-[Anatomi - Oppbygning av en test](lessons/04-anatomi.md)
-
-Testdekning og vanlige feller
------------------------------
-Ta en titt på denne kalulatoren med 100% testdekning.
-
- * [Javascript](node/src/coverage-calculator.test.js)
-
-
-[Testdekning og godt nok](lessons/05-coverage.md)
+Leksjoner
+---------
+ * [Motivasjon - Noen grunner til å skrive tester](lessons/01-hvorfor.md)
+ * [Mer informasjon om forskjellige typer tester](lessons/02-typer.md)
+ * [TDD - Test driven development](lessons/03-tdd.md)
+ * [Anatomi - Oppbygning av en test](lessons/04-anatomi.md)
+ * [Testdekning og godt nok](lessons/05-coverage.md)
 
 Workshop kata
 -------------
