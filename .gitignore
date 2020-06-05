@@ -107,3 +107,6 @@ dist
 # Intellij
 .idea
 *.iml
+
+build
+.gradle
