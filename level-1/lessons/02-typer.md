@@ -17,7 +17,10 @@ Her en en liste over ting egenskaper ved en god enhetstest.
 
  * Den er ekstremt rask. Starter og fullfører på noen få millisekunder. 
  * Du har ekstremt mange av de! 
- * Ikke avhengig av implementasjonen (gir deg mulighet til å endre / optimalisere implementasjonen uten å tukle med testen)
+ * Ikke avhengig av implementasjonen (gir deg mulighet til å endre / optimalisere implementasjonen uten å tukle med testen).
+Dette kalles ofte "black box testing". Se for deg at du ikke kan se koden, bare det du putter inn og det du får ut. Den eneste
+måten å teste en sånn svart boks på er å skrive tester som tester at det som kommer ut av boksen / kverna er det du forventer 
+basert på hva du puttet inn. 
  * En utvikler som leser den lærer noe om domenet. Eksempel: aah, det er sånn denne delen av skatteberegningen fungerer!
  * Er isolert. Eksempel: Resultatene av testene blir det samme uavhengig av hvilken rekkefølge de kjøres i. 
  * Gir en god feilmelding når den feiler. Det skjer ganske ofte at man knekker en test og blir usikker på hvorfor testen

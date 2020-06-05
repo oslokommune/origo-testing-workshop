@@ -13,7 +13,7 @@ følgende språk. Prinsippene er stort sett de samme uavhengig av hvilket språk
 
 Oppgaver og eksempler
 ---------------------
- * [Javascript](node/src/calculator.test.js)
+ * [Kalkulator](node/src/calculator.test.js)
  * [Eksempler på dårlige tester](node/src/crappy.test.js) 
  * [Oppgave: Forbedre denne](node/src/fairytale-repo.test.js)
  * [100% coverage](node/src/coverage-calculator.test.js)
@@ -22,9 +22,6 @@ Leksjoner
 ---------
  * [Motivasjon - Noen grunner til å skrive tester](lessons/01-hvorfor.md)
  * [Mer informasjon om forskjellige typer tester](lessons/02-typer.md)
- * [TDD - Test driven development](lessons/03-tdd.md)
+ * [Test driven development (TDD)](lessons/03-tdd.md)
  * [Anatomi - Oppbygning av en test](lessons/04-anatomi.md)
  * [Testdekning og godt nok](lessons/05-coverage.md)
-
-Workshop kata
--------------
