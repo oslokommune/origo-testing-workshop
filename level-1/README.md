@@ -16,7 +16,7 @@ Oppgaver og eksempler
  * **Kalkulator:** [Javascript](node/src/calculator.test.js), [Kotlin](jvm/src/test/kotlin/level1/AwesomeCalculatorTest.kt)
  * **Eksempler på dårlige tester:** [Javascript](node/src/crappy.test.js) 
  * **Oppgave: Forbedre denne:** [Javascript](node/src/fairytale-repo.test.js), [Kotlin](jvm/src/test/kotlin/level1/FairytaleRepositoryTest.kt)
- * **100% coverage:** [Javascript](node/src/coverage-calculator.test.js)
+ * **100% coverage:** [Javascript](node/src/coverage-calculator.test.js),  [Kotlin](jvm/src/test/kotlin/level1/OneHundredPercentCoverageCalculatorTest.kt)
 
 Leksjoner
 ---------
