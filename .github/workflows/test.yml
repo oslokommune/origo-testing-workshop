@@ -2,22 +2,51 @@ name: Unit testing
 on: [push]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+    test-node:
+        runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [14.x]
+        strategy:
+            matrix:
+                node-version: [14.x]
 
-    steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm install
-      working-directory: level-1/node
-    - run: npm test
-      working-directory: level-1/node
-      env:
-        CI: true
+        steps:
+            -   uses: actions/checkout@v2
+            -   name: Use Node.js ${{ matrix.node-version }}
+                uses: actions/setup-node@v1
+                with:
+                    node-version: ${{ matrix.node-version }}
+            -   run: npm install
+                working-directory: level-1/node
+            -   run: npm test
+                working-directory: level-1/node
+                env:
+                    CI: true
+
+    test-jvm:
+        runs-on: ubuntu-latest
+
+        steps:
+            -   uses: actions/checkout@v2
+
+            -   name: Cache gradle wrapper
+                uses: actions/cache@v1
+                with:
+                    path: ~/.gradle/wrapper
+                    key: ${{ runner.os }}-gradle-wrapper-${{ hashFiles('gradle/wrapper/gradle-wrapper.properties') }}
+
+            -   name: Cache gradle
+                uses: actions/cache@v1
+                with:
+                    path: ~/.gradle/caches
+                    key: ${{ runner.OS }}-build-${{ hashFiles('**/build.gradle*') }}
+                    restore-keys: |
+                        ${{ runner.os }}-gradle-
+
+            -   name: Set up JDK 1.14
+                uses: actions/setup-java@v1
+                with:
+                    java-version: 1.14
+
+            -   name: Build with Gradle
+                run: ./gradlew test --stacktrace
+                working-directory: level-1/jvm
