@@ -49,3 +49,4 @@ jobs:
 
             -   name: Build with Gradle
                 run: ./gradlew test --stacktrace
+                working-directory: level-1/jvm
