@@ -13,7 +13,7 @@ følgende språk. Prinsippene er stort sett de samme uavhengig av hvilket språk
 
 Oppgaver og eksempler
 ---------------------
- * [Kalkulator](node/src/calculator.test.js)
+ * **Kalkulator:** [Javascript](node/src/calculator.test.js), [Kotlin](jvm/src/test/kotlin/level1/AwesomeCalculatorTest.kt)
  * [Eksempler på dårlige tester](node/src/crappy.test.js) 
  * [Oppgave: Forbedre denne](node/src/fairytale-repo.test.js)
  * [100% coverage](node/src/coverage-calculator.test.js)
