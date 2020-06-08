@@ -14,3 +14,9 @@ er samlet.
     
 Dette skal skrive ut noen linjer på skjermen avlsuttet med noe ala
 `BUILD SUCCESSFUL in 13s`
+
+Test coverage
+-------------
+Kjør `./gradlew jacocoTestReport` for å kjøre testene med instrumentering 
+som genererer en rapport over testdekningen. Dette vil generere en html rapport
+under `origo-testing-workshop/level-1/jvm/build/jacocoHtml/level1/index.html`  
